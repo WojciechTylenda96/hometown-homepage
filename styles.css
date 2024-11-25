@@ -1,0 +1,109 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 20px;
+    background-color: bisque;
+    width: 1000px;
+    margin: 0 auto;
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+
+img {
+    width: 150px;
+}
+
+#section-hero{
+    background-image: url("images/olsztyn.jpg");
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+
+}
+
+#section-active{
+    background: #A8DADC;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#section-guide{
+    display: flex;
+    width: 400px;
+    margin: 40px auto 20px;
+    background-color: #457B9D;
+    border-bottom: 6px solid #1D3557;
+    border-radius: 3%;
+}
+
+#section-guide-div{
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+}
+
+#active-img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-top: 36px;
+}
+
+.round-img{
+    border-radius: 5%;
+}
+
+.padding{
+    padding: 20px;
+}
+
+.img-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 250px;
+}
+
+h2{
+    max-width: 650px;
+    background-color: #1D3557;
+}
+
+h1{
+    background-color: #457B9D;
+}
+
+h1, h2{
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+p{
+    text-align: justify;
+    width: fit-content ;
+}
